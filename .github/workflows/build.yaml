@@ -32,6 +32,6 @@ jobs:
     - name: Install library dependencies
       run: pio lib -g install 1
     - name: Run PlatformIO
-      run: pio ci
+      run: pio ci --board=esp32dev
       env:
         PLATFORMIO_CI_SRC: ${{ matrix.example }}
