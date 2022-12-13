@@ -1,0 +1,26 @@
+{
+  "name": "iHSV57",
+  "version": "0.0.1",
+  "description": "A library to control JMC iHSV57 servo motor parameters over modbus.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flaretek/iHSV57-Arduino.git"
+  },
+  "authors": [],
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "eModbus",
+      "version": "https://github.com/eModbus/eModbus.git",
+      "platforms": [
+        "espressif32",
+        "espressif8266"
+      ]
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif32",
+    "espressif8266"
+  ]
+}
