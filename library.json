@@ -8,16 +8,9 @@
   },
   "authors": [],
   "license": "MIT",
-  "dependencies": [
-    {
-      "name": "eModbus",
-      "version": "https://github.com/eModbus/eModbus.git",
-      "platforms": [
-        "espressif32",
-        "espressif8266"
-      ]
-    }
-  ],
+  "dependencies": {
+    "miq19/eModbus": "1.6.0"
+  },
   "frameworks": "arduino",
   "platforms": [
     "espressif32",
