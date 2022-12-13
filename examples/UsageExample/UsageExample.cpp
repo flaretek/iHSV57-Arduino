@@ -1,5 +1,4 @@
 #include "Arduino.h"
-#include "Serial.h"
 #include "ModbusClientRTU.h"
 #include "iHSV57.h"
 
