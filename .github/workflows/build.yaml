@@ -29,9 +29,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install --upgrade platformio
-    - name: Install library dependencies
-      run: pio lib --global install miq19/eModbus@1.6.0
     - name: Run PlatformIO
-      run: pio ci --board=esp32dev
+      run: pio ci -l . --board=esp32dev
       env:
         PLATFORMIO_CI_SRC: ${{ matrix.example }}
